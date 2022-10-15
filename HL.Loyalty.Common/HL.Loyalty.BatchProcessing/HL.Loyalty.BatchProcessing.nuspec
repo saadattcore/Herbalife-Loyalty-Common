@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>HL.Loyalty.BatchProcessing</id>
+    <version>$version$</version>
+    <authors>Herbalife</authors>
+    <owners>Herbalife</owners>
+    <licenseUrl>http://herbalife.com</licenseUrl>
+    <projectUrl>http://myherbalife.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+      1.0.0 Adding service bus subscription with batch processing.
+    </releaseNotes>
+    <description>
+      Service bus subscription with batch processing
+    </description>
+    <copyright>Copyright 2016</copyright>
+    <tags>Loyalty batch</tags>
+  </metadata>
+</package>

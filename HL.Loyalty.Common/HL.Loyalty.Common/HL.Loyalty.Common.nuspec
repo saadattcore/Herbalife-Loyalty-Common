@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>HL.Loyalty.Common</id>
+    <version>$version$</version>
+    <authors>Herbalife</authors>
+    <owners>Herbalife</owners>
+    <licenseUrl>http://herbalife.com</licenseUrl>
+    <projectUrl>http://myherbalife.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+      1.0.0.3       Add healthcheck for Owin IAppBuilder
+      1.0.0.2       Adding inprogress status
+      1.0.0.1       Fixing dependencies
+      1.0.0.0       Adding Common ValueObjects
+    </releaseNotes>
+    <description>
+      Loyalty Common ValueObjects
+    </description>
+    <copyright>Copyright 2016</copyright>
+    <tags>Loyalty Common ValueObjects</tags>
+    <references>
+      <reference file="HL.Loyalty.Common.dll" />
+    </references>
+  </metadata>
+  <files>
+    <file src="\obj\Release\HL.Loyalty.Common.dll" target="lib" />
+    <file src="\obj\Release\HL.Loyalty.Common.pdb" target="lib" />
+  </files>
+</package>

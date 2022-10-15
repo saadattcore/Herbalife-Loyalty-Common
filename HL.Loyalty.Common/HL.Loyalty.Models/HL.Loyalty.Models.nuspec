@@ -1,0 +1,85 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>HL.Loyalty.Models</id>
+    <version>$version$</version>
+    <authors>Herbalife</authors>
+    <owners>Herbalife</owners>
+    <licenseUrl>http://herbalife.com</licenseUrl>
+    <projectUrl>http://myherbalife.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+      1.0.0.69      Complete changes for all models for loyalty feeds
+      1.0.0.63      Added transaction type in points event feeds
+      1.0.0.62      Altering feeds model name loyalty feed model
+      1.0.0.61      Modifying loyalty feed model
+      1.0.0.60      Adding loyalty feed model
+      1.0.0.59      Removing business logic from Models
+      1.0.0.58      Added CustomerDetailModel.GoHLCustomerId property.
+      1.0.0.57      Fix can move to the next tier.
+      1.0.0.56      Added CustomerReward.RewardTypeDescription property.
+      1.0.0.55      Added LoyaltyRewardModel.CategoryDescription property.
+      1.0.0.54      Update CustomerDetailModel.
+      1.0.0.53      Update CustomerModel.
+      1.0.0.50      Added CustomerShoppingPoints.CanMoveNextTier property.
+      1.0.0.49      Modified SkusRewardsValidation.Id to Guid data type.
+      1.0.0.48      Added SkusRewardsValidation.DistributorId property.
+      1.0.0.47      Added CustomerActivityPoints.EnableToRedeem property.
+      1.0.0.46      Added CustomerShoppingPoints.FiftyPointFlag property.
+      1.0.0.45      Adding CustomerId to CustomerDetailModel
+      1.0.0.44      Activity.IsUpdatedTest.
+      1.0.0.43      Renamed CustomerDashBoard class to CustomerDetailModel.
+      1.0.0.42      Added LoyaltyRewardModel.RedemptionStatusCode, CustomerDashBoard.CustomerStartDate and CustomerDashboard.CustomerEndDate properties.
+      1.0.0.41      Changing Reward Model to support booleans
+      1.0.0.40      Modified properties to Nullable.
+      1.0.0.39      Added WrapperResult.ErrorMessage property.
+      1.0.0.38      Modified CustomerActivityPoints.ActivityNextTier and ActivityNextTierPoints to nullable.
+      1.0.0.37      Added CustomerModel.ProductMaxTier property.
+      1.0.0.36      Added CustomerModel.ConsecutiveMonthsAchieved property.
+      1.0.0.35      Modified CustomerModel.ProductPointsNeededThisMonth data type.
+      1.0.0.34      Modified CustomerModel to include End Date.
+      1.0.0.33      Modified CustomerModel.ProductPointsNeededThisMonth data type.
+      1.0.0.32      Added SkusRewardsValidation class.
+      1.0.0.31      Added CustomerDashboard.ActiveProgram property.
+      1.0.0.30      Added CustomerDashboard.EnableShoppingRewards and CustomerDashboard.EnableActivityRewards properties.
+      1.0.0.29      Fixing PointsProductsCategory enum
+      1.0.0.28      Adding RedemptionStatus enum
+      1.0.0.27      Adding ProgramId to CustomerDashboard
+      1.0.0.26      Adding RedemptionStatus enum
+      1.0.0.25      Changed property name CustomerActivityPoints.ActivityPointsNeededNextLevel property.
+      1.0.0.24      Added CustomerShoppingPoints.RewardsGroups property.
+      1.0.0.23      Modified CustomerDashboard class.
+      1.0.0.22      Including Cancel transaction type
+      1.0.0.21      Modified RewardsTierGroup.Redeemed to bool data type
+      1.0.0.20      Added RewardsTierGroup.Redeemed
+      1.0.0.19      Added LoyaltyRewardModel.RewardId
+      1.0.0.18      Added customer dashboard
+      1.0.0.17      Update Points to Decimal in ProgramActivty
+      1.0.0.16      Include ServiceResponseType
+      1.0.0.11      Adding ProgramModel.EnableShoppingRewards, ProgramModel.EnableActivityRewards, Customer.GOHLCustomerId, Customer.Tier and changed GOHLCustomerId to GUID
+      1.0.0.10      Adding Order Country code property
+      1.0.0.9       Added ProgramActivity class
+      1.0.0.8       Added CustomerReward class
+      1.0.0.7       Added RewardsTierGroup class and LoyaltyRewardMode.Tier property
+      1.0.0.6       Adding Tier models
+      1.0.0.5       Added Wrapper Result.
+      1.0.0.4       New sequential Guid generator.
+      1.0.0.3       Adding to common solution
+      1.0.0.2       Added RewardHistory
+      1.0.0.1       Update CustomerModel
+      1.0.0.0       Loyalty Service Models
+    </releaseNotes>
+    <description>
+      Loyalty common web entities
+    </description>
+    <copyright>Copyright 2016</copyright>
+    <tags>Loyalty Shared Models</tags>
+    <references>
+      <reference file="HL.Loyalty.Models.dll" />
+    </references>
+  </metadata>
+  <files>
+    <file src="..\HL.Loyalty.Models\obj\Release\HL.Loyalty.Models.dll" target="lib" />
+    <file src="..\HL.Loyalty.Models\obj\Release\HL.Loyalty.Models.pdb" target="lib" />
+  </files>
+</package>

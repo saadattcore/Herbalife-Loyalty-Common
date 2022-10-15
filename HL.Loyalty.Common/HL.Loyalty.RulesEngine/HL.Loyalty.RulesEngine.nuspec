@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>HL.Loyalty.RulesEngine</id>
+    <version>$version$</version>
+    <authors>Herbalife</authors>
+    <owners>Herbalife</owners>
+    <licenseUrl>http://herbalife.com</licenseUrl>
+    <projectUrl>http://myherbalife.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+      1.0.0.8      Adding level points
+      1.0.0.7      Fixing month calculation
+      1.0.0.6      Achievements Goal implementation from DB
+      1.0.0.5      Country code in ITierConfigurationProvider
+      1.0.0.4      Implementing ITierConfigurationProvider to TierConfigurationProvider
+      1.0.0.3      For the provider TierConfiguration pass the connString in the consturctor
+      1.0.0.2      Include Provider to get TierConfiguration from DB
+      1.0.0.1       Updating statuses
+      1.0.0.0       Adding Rules Engine
+    </releaseNotes>
+    <description>
+      Loyalty rules engine
+    </description>
+    <copyright>Copyright 2016</copyright>
+    <tags>Loyalty Shared Models</tags>
+    <references>
+      <reference file="HL.Loyalty.RulesEngine.dll" />
+    </references>
+    <dependencies>
+      <dependency id="HL.Loyalty.Models" version="[1.0.0.28, 2.0.0.0]" />
+      <dependency id="HL.Loyalty.Common" version="[1.0.0.0, 2.0.0.0]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="\obj\Release\HL.Loyalty.RulesEngine.dll" target="lib" />
+    <file src="\obj\Release\HL.Loyalty.RulesEngine.pdb" target="lib" />
+  </files>
+</package>

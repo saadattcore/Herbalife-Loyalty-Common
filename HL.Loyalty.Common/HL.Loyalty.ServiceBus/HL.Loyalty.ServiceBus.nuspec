@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>HL.Loyalty.ServiceBus</id>
+    <version>$version$</version>
+    <authors>Herbalife</authors>
+    <owners>Herbalife</owners>
+    <licenseUrl>http://herbalife.com</licenseUrl>
+    <projectUrl>http://myherbalife.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+      1.0.0.7       Additional setting for constructor to pass the connection string
+      1.0.0.6       Update the getMessage method
+      1.0.0.5       Fixing constructor connection string
+      1.0.0.4       Adding methods to create topic and subscriptions
+      1.0.0.3       Adding full constructor for BusPublisher
+      1.0.0.2       Fix for set the ID when publishing a new Message
+      1.0.0.1       Update for retrieve detail in the response for loyalty Service Bus
+      1.0.0.0       Loyalty Service Bus
+    </releaseNotes>
+    <description>
+      Loyalty Service Bus, Functionalities to Read and Write from the ServiceBus
+    </description>
+    <copyright>Copyright 2016</copyright>
+    <tags>Loyalty ServiceBus</tags>
+    <references>
+      <reference file="HL.Loyalty.ServiceBus.dll" />
+    </references>
+    <dependencies>
+      <group targetFramework="net461">
+        <dependency id="Newtonsoft.Json" version="9.0.1" />
+        <dependency id="WindowsAzure.ServiceBus" version="3.4.1" />
+        <dependency id="Ninject" version="3.2.2.0" />
+        <dependency id="Ninject.Web.Common" version="3.2.3.0" />
+        <dependency id="Ninject.Web.WebApi" version="3.2.4.0" />
+        <dependency id="valueinjecter" version="2.3.3" />
+        <dependency id="WebActivatorEx" version="2.2.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="\obj\Release\HL.Loyalty.ServiceBus.dll" target="lib" />
+    <file src="\obj\Release\HL.Loyalty.ServiceBus.pdb" target="lib" />
+  </files>
+</package>

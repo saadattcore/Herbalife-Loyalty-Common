@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>HL.Loyalty.ServiceFabric.Tracing</id>
+    <version>$version$</version>
+    <authors>Herbalife</authors>
+    <owners>Herbalife</owners>
+    <licenseUrl>http://herbalife.com</licenseUrl>
+    <projectUrl>http://myherbalife.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+      1.0.0.3       Testing Provider Name version
+      1.0.0.2       Improving event methods
+      1.0.0.1       Improving event methods
+      1.0.0.0       Logger class
+    </releaseNotes>
+    <description>
+      Contains classes and helpers for logging and tracing in service fabric
+    </description>
+    <copyright>Copyright 2016</copyright>
+    <tags>Loyalty Tracing ServiceFabric</tags>
+    <references>
+      <reference file="HL.Loyalty.ServiceFabric.Tracing.dll" />
+    </references>
+    <dependencies>
+      <group targetFramework="net461">
+        <dependency id="Microsoft.ServiceFabric" version="5.3.311" />
+        <dependency id="Microsoft.ServiceFabric.Actors" version="2.3.311" />
+        <dependency id="Microsoft.ServiceFabric.Data" version="2.3.311" />
+        <dependency id="Microsoft.ServiceFabric.Services" version="2.3.311" />
+        <dependency id="Microsoft.WindowsAzure.SDK" version="2.9.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="\obj\Release\HL.Loyalty.ServiceFabric.Tracing.dll" target="lib" />
+    <file src="\obj\Release\HL.Loyalty.ServiceFabric.Tracing.pdb" target="lib" />
+  </files>
+</package>

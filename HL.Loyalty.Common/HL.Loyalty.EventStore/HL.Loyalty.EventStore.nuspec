@@ -1,0 +1,41 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>HL.Loyalty.EventStore</id>
+    <version>$version$</version>
+    <authors>Herbalife</authors>
+    <owners>Herbalife</owners>
+    <licenseUrl>http://herbalife.com</licenseUrl>
+    <projectUrl>http://myherbalife.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+      1.0.0.8 Fixing memory leak.
+      1.0.0.7 Fixing memory leak.
+      1.0.0.6 Fixing creation data base.
+      1.0.0.5 Making public create objects methods.
+      1.0.0.4 Adding fallbacks to create data base and collections. Adding partition key to save.
+      1.0.0.3 Adding internal methods to create database and collection
+      1.0.0.2 Adding Upsert features in SaveAsync
+      1.0.0.1 Adding read features to event store
+      1.0.0.0 Loyalty EventStore Interface and AzureDocumentDb features.
+    </releaseNotes>
+    <description>
+      Loyalty Service Bus, Functionalities to Read and Write from the ServiceBus
+    </description>
+    <copyright>Copyright 2016</copyright>
+    <tags>Loyalty ServiceBus</tags>
+    <references>
+      <reference file="HL.Loyalty.EventStore.dll" />
+    </references>
+    <dependencies>
+      <group targetFramework="net461">
+        <dependency id="Newtonsoft.Json" version="9.0.1" />
+        <dependency id="Microsoft.Azure.DocumentDB" version="1.10.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="\obj\Release\HL.Loyalty.EventStore.dll" target="lib" />
+    <file src="\obj\Release\HL.Loyalty.EventStore.pdb" target="lib" />
+  </files>
+</package>

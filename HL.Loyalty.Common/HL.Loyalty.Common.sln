@@ -1,0 +1,164 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL.Loyalty.ServiceBus", "HL.Loyalty.ServiceBus\HL.Loyalty.ServiceBus.csproj", "{A6A2FDDC-CA1B-4183-BDB5-F3631D0A06B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL.Loyalty.EventStore", "HL.Loyalty.EventStore\HL.Loyalty.EventStore.csproj", "{EEECDFA8-75FB-4570-A170-4397BBAF9C8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{F2E0F6DC-2220-440E-B9A5-0D4593CEC0B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL.Loyalty.EventStore.Test", "HL.Loyalty.EventStore.Test\HL.Loyalty.EventStore.Test.csproj", "{BF730C81-ED67-47B1-9BA0-23E78E15A78E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL.Loyalty.Models", "HL.Loyalty.Models\HL.Loyalty.Models.csproj", "{9D2B266E-195C-409A-9BCD-6FA2C817BCEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL.Loyalty.RulesEngine", "HL.Loyalty.RulesEngine\HL.Loyalty.RulesEngine.csproj", "{B4BB9336-7BE1-4C9A-8808-B7C2F5631DF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL.Loyalty.RulesEngine.Tests", "HL.Loyalty.RulesEngine.Tests\HL.Loyalty.RulesEngine.Tests.csproj", "{C234B736-D6AC-4FBA-BBEF-BB87082BBD78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL.Loyalty.Common", "HL.Loyalty.Common\HL.Loyalty.Common.csproj", "{ABFE75E7-7108-4F91-8A16-2C99C84E92B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL.Loyalty.ServiceBus.Tests", "HL.Loyalty.ServiceBus.Tests\HL.Loyalty.ServiceBus.Tests.csproj", "{8262F83C-E8B5-462B-B677-D334993EC6CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL.Loyalty.ServiceFabric.Tracing", "HL.Loyalty.ServiceFabric.Tracing\HL.Loyalty.ServiceFabric.Tracing.csproj", "{EB55081D-738E-4206-823A-3726988E54D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL.Loyalty.BatchProcessing", "HL.Loyalty.BatchProcessing\HL.Loyalty.BatchProcessing.csproj", "{BA3BD5AD-7A37-417E-B1F2-124D43280F85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6A2FDDC-CA1B-4183-BDB5-F3631D0A06B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A2FDDC-CA1B-4183-BDB5-F3631D0A06B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A2FDDC-CA1B-4183-BDB5-F3631D0A06B2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A6A2FDDC-CA1B-4183-BDB5-F3631D0A06B2}.Debug|x64.Build.0 = Debug|Any CPU
+		{A6A2FDDC-CA1B-4183-BDB5-F3631D0A06B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A2FDDC-CA1B-4183-BDB5-F3631D0A06B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6A2FDDC-CA1B-4183-BDB5-F3631D0A06B2}.Release|x64.ActiveCfg = Release|Any CPU
+		{A6A2FDDC-CA1B-4183-BDB5-F3631D0A06B2}.Release|x64.Build.0 = Release|Any CPU
+		{EEECDFA8-75FB-4570-A170-4397BBAF9C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEECDFA8-75FB-4570-A170-4397BBAF9C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEECDFA8-75FB-4570-A170-4397BBAF9C8F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EEECDFA8-75FB-4570-A170-4397BBAF9C8F}.Debug|x64.Build.0 = Debug|Any CPU
+		{EEECDFA8-75FB-4570-A170-4397BBAF9C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEECDFA8-75FB-4570-A170-4397BBAF9C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEECDFA8-75FB-4570-A170-4397BBAF9C8F}.Release|x64.ActiveCfg = Release|Any CPU
+		{EEECDFA8-75FB-4570-A170-4397BBAF9C8F}.Release|x64.Build.0 = Release|Any CPU
+		{BF730C81-ED67-47B1-9BA0-23E78E15A78E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF730C81-ED67-47B1-9BA0-23E78E15A78E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF730C81-ED67-47B1-9BA0-23E78E15A78E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BF730C81-ED67-47B1-9BA0-23E78E15A78E}.Debug|x64.Build.0 = Debug|Any CPU
+		{BF730C81-ED67-47B1-9BA0-23E78E15A78E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF730C81-ED67-47B1-9BA0-23E78E15A78E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF730C81-ED67-47B1-9BA0-23E78E15A78E}.Release|x64.ActiveCfg = Release|Any CPU
+		{BF730C81-ED67-47B1-9BA0-23E78E15A78E}.Release|x64.Build.0 = Release|Any CPU
+		{9D2B266E-195C-409A-9BCD-6FA2C817BCEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D2B266E-195C-409A-9BCD-6FA2C817BCEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D2B266E-195C-409A-9BCD-6FA2C817BCEB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9D2B266E-195C-409A-9BCD-6FA2C817BCEB}.Debug|x64.Build.0 = Debug|Any CPU
+		{9D2B266E-195C-409A-9BCD-6FA2C817BCEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D2B266E-195C-409A-9BCD-6FA2C817BCEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D2B266E-195C-409A-9BCD-6FA2C817BCEB}.Release|x64.ActiveCfg = Release|Any CPU
+		{9D2B266E-195C-409A-9BCD-6FA2C817BCEB}.Release|x64.Build.0 = Release|Any CPU
+		{B4BB9336-7BE1-4C9A-8808-B7C2F5631DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BB9336-7BE1-4C9A-8808-B7C2F5631DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BB9336-7BE1-4C9A-8808-B7C2F5631DF4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B4BB9336-7BE1-4C9A-8808-B7C2F5631DF4}.Debug|x64.Build.0 = Debug|Any CPU
+		{B4BB9336-7BE1-4C9A-8808-B7C2F5631DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BB9336-7BE1-4C9A-8808-B7C2F5631DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BB9336-7BE1-4C9A-8808-B7C2F5631DF4}.Release|x64.ActiveCfg = Release|Any CPU
+		{B4BB9336-7BE1-4C9A-8808-B7C2F5631DF4}.Release|x64.Build.0 = Release|Any CPU
+		{C234B736-D6AC-4FBA-BBEF-BB87082BBD78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C234B736-D6AC-4FBA-BBEF-BB87082BBD78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C234B736-D6AC-4FBA-BBEF-BB87082BBD78}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C234B736-D6AC-4FBA-BBEF-BB87082BBD78}.Debug|x64.Build.0 = Debug|Any CPU
+		{C234B736-D6AC-4FBA-BBEF-BB87082BBD78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C234B736-D6AC-4FBA-BBEF-BB87082BBD78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C234B736-D6AC-4FBA-BBEF-BB87082BBD78}.Release|x64.ActiveCfg = Release|Any CPU
+		{C234B736-D6AC-4FBA-BBEF-BB87082BBD78}.Release|x64.Build.0 = Release|Any CPU
+		{ABFE75E7-7108-4F91-8A16-2C99C84E92B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABFE75E7-7108-4F91-8A16-2C99C84E92B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABFE75E7-7108-4F91-8A16-2C99C84E92B1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ABFE75E7-7108-4F91-8A16-2C99C84E92B1}.Debug|x64.Build.0 = Debug|Any CPU
+		{ABFE75E7-7108-4F91-8A16-2C99C84E92B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABFE75E7-7108-4F91-8A16-2C99C84E92B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABFE75E7-7108-4F91-8A16-2C99C84E92B1}.Release|x64.ActiveCfg = Release|Any CPU
+		{ABFE75E7-7108-4F91-8A16-2C99C84E92B1}.Release|x64.Build.0 = Release|Any CPU
+		{8262F83C-E8B5-462B-B677-D334993EC6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8262F83C-E8B5-462B-B677-D334993EC6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8262F83C-E8B5-462B-B677-D334993EC6CC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8262F83C-E8B5-462B-B677-D334993EC6CC}.Debug|x64.Build.0 = Debug|Any CPU
+		{8262F83C-E8B5-462B-B677-D334993EC6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8262F83C-E8B5-462B-B677-D334993EC6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8262F83C-E8B5-462B-B677-D334993EC6CC}.Release|x64.ActiveCfg = Release|Any CPU
+		{8262F83C-E8B5-462B-B677-D334993EC6CC}.Release|x64.Build.0 = Release|Any CPU
+		{EB55081D-738E-4206-823A-3726988E54D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB55081D-738E-4206-823A-3726988E54D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB55081D-738E-4206-823A-3726988E54D5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EB55081D-738E-4206-823A-3726988E54D5}.Debug|x64.Build.0 = Debug|Any CPU
+		{EB55081D-738E-4206-823A-3726988E54D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB55081D-738E-4206-823A-3726988E54D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB55081D-738E-4206-823A-3726988E54D5}.Release|x64.ActiveCfg = Release|Any CPU
+		{EB55081D-738E-4206-823A-3726988E54D5}.Release|x64.Build.0 = Release|Any CPU
+		{BA3BD5AD-7A37-417E-B1F2-124D43280F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3BD5AD-7A37-417E-B1F2-124D43280F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3BD5AD-7A37-417E-B1F2-124D43280F85}.Debug|x64.ActiveCfg = Debug|x64
+		{BA3BD5AD-7A37-417E-B1F2-124D43280F85}.Debug|x64.Build.0 = Debug|x64
+		{BA3BD5AD-7A37-417E-B1F2-124D43280F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3BD5AD-7A37-417E-B1F2-124D43280F85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA3BD5AD-7A37-417E-B1F2-124D43280F85}.Release|x64.ActiveCfg = Release|x64
+		{BA3BD5AD-7A37-417E-B1F2-124D43280F85}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF730C81-ED67-47B1-9BA0-23E78E15A78E} = {F2E0F6DC-2220-440E-B9A5-0D4593CEC0B1}
+		{C234B736-D6AC-4FBA-BBEF-BB87082BBD78} = {F2E0F6DC-2220-440E-B9A5-0D4593CEC0B1}
+		{8262F83C-E8B5-462B-B677-D334993EC6CC} = {F2E0F6DC-2220-440E-B9A5-0D4593CEC0B1}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs:8080/tfs/enterpriseapplications
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = HL.Loyalty.ServiceBus\\HL.Loyalty.ServiceBus.csproj
+		SccProjectName1 = HL.Loyalty.ServiceBus
+		SccLocalPath1 = HL.Loyalty.ServiceBus
+		SccProjectUniqueName2 = HL.Loyalty.EventStore\\HL.Loyalty.EventStore.csproj
+		SccProjectName2 = HL.Loyalty.EventStore
+		SccLocalPath2 = HL.Loyalty.EventStore
+		SccProjectUniqueName3 = HL.Loyalty.EventStore.Test\\HL.Loyalty.EventStore.Test.csproj
+		SccProjectTopLevelParentUniqueName3 = HL.Loyalty.Common.sln
+		SccProjectName3 = HL.Loyalty.EventStore.Test
+		SccLocalPath3 = HL.Loyalty.EventStore.Test
+		SccProjectUniqueName4 = HL.Loyalty.Models\\HL.Loyalty.Models.csproj
+		SccProjectName4 = HL.Loyalty.Models
+		SccLocalPath4 = HL.Loyalty.Models
+		SccProjectUniqueName5 = HL.Loyalty.RulesEngine\\HL.Loyalty.RulesEngine.csproj
+		SccProjectName5 = HL.Loyalty.RulesEngine
+		SccLocalPath5 = HL.Loyalty.RulesEngine
+		SccProjectUniqueName6 = HL.Loyalty.RulesEngine.Tests\\HL.Loyalty.RulesEngine.Tests.csproj
+		SccProjectTopLevelParentUniqueName6 = HL.Loyalty.Common.sln
+		SccProjectName6 = HL.Loyalty.RulesEngine.Tests
+		SccLocalPath6 = HL.Loyalty.RulesEngine.Tests
+		SccProjectUniqueName7 = HL.Loyalty.Common\\HL.Loyalty.Common.csproj
+		SccProjectName7 = HL.Loyalty.Common
+		SccLocalPath7 = HL.Loyalty.Common
+		SccProjectUniqueName8 = HL.Loyalty.ServiceBus.Tests\\HL.Loyalty.ServiceBus.Tests.csproj
+		SccProjectTopLevelParentUniqueName8 = HL.Loyalty.Common.sln
+		SccProjectName8 = HL.Loyalty.ServiceBus.Tests
+		SccLocalPath8 = HL.Loyalty.ServiceBus.Tests
+		SccProjectUniqueName9 = HL.Loyalty.ServiceFabric.Tracing\\HL.Loyalty.ServiceFabric.Tracing.csproj
+		SccProjectName9 = HL.Loyalty.ServiceFabric.Tracing
+		SccLocalPath9 = HL.Loyalty.ServiceFabric.Tracing
+		SccProjectUniqueName10 = HL.Loyalty.BatchProcessing\\HL.Loyalty.BatchProcessing.csproj
+		SccProjectName10 = HL.Loyalty.BatchProcessing
+		SccLocalPath10 = HL.Loyalty.BatchProcessing
+	EndGlobalSection
+EndGlobal
